@@ -4,6 +4,7 @@ Often when I use my RASPBERRY PIs for development I do not add a monitor to the 
 But then I do not know the IP of this device. Of course there are also other possibilities to find this information (e.g. install fing on my laptop )
 
 But with this solution I will only add a small software that will tell me on the audio port what the current IP addresses are. I just need an ear plug.
+The solution uses python3.
 
 ## Installation
 Download the whole project (e.g. via zip file from the browser).
