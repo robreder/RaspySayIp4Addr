@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt install -y python3-espeak
+sudo apt install -y python3-netifaces
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 path2RaspySay="/home/pi/RaspySayIp4Addr/"
