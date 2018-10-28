@@ -8,7 +8,7 @@ But with this solution I will only add a small software that will tell me on the
 ## Installation
 Download the whole project (e.g. via zip file from the browser).
 Run the file install.sh.
-This will automatically add a call to the script run.sh to the cron-jobs with "reboot" option.
-So whenever the raspby will be booted it will tell you the actual IP-addresses.
+This will automatically copy the files to a specific folder on /home/pi/ and add a call to the script run.sh to the cron-jobs with "@reboot" option.
+So whenever the raspby will be booted it will tell you the actual IP-addresses after 30 seconds.
 
 Have fun!
