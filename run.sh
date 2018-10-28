@@ -1,1 +1,1 @@
-python3 sayIp4Addr.py
+python3 sayIp4Addr.py 2>/dev/null
