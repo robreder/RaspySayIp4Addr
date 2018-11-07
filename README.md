@@ -5,7 +5,7 @@ I will be glad if I get some inputs from you. So whenever you would have an idea
 # Idea of the solution
 The idea of this project was to add an audio output of the actual IP-V4 address on booting a raspberry pi computer.
 Often when I use my RASPBERRY PIs for development I do not add a monitor to the raspberry pi and I just want to work with an external ssh client.
-But then I do not know the IP of this device. Of course there are also other possibilities to find this information (e.g. install fing on my laptop )
+But then I do not know the IP of this device. Of course there are also other possibilities to find this information (e.g. install fing on my laptop )  
 
 But with this solution I will only add a small software that will tell me on the audio port what the current IP addresses are. I just need an ear plug.
 The solution uses python3.
