@@ -5,8 +5,8 @@ RASPI_USER=pi
 
 # install relevant python3 libraries
 sudo apt-get update
-sudo apt install -y python3-espeak
-sudo apt install -y python3-netifaces
+sudo apt-get install -y python3-espeak
+sudo apt-get install -y python3-netifaces
 
 # remember current working directory
 ORIG_DIR="$( pwd )"
