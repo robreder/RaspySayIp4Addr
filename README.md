@@ -20,3 +20,6 @@ So whenever the raspby will be booted it will tell you the actual IP-addresses a
 You can test the output by running the script "run.sh".
 
 Have fun!
+
+## Important to know
+Today (2018.11.07) I learned that older versions of raspbian do not work with python3-espeak and python3-netifaces. Until now I do not have the plan to port this solution down to older versions of raspbian. But actually I think it could also run with modifications on the scripts on python2 with python-espeak and python-netifaces.
