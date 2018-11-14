@@ -22,6 +22,10 @@ Download the whole project (e.g. via zip file from the browser).
 Run the file install.sh.
 This will automatically copy the files to a specific folder on /home/pi/ and add a call to the script run.sh to the cron-jobs with "@reboot" option.
 So whenever the raspby will be booted it will tell you the actual IP-addresses after 30 seconds.
+## Deinstallation
+Run the script "deinstall.sh" (e.g. from the installation folder).
+This will remove the according line from the crontab jobs and deletes the folder "~/.raspySayIp4Addr/".
+
 
 ## Testing
 Plug an ear plug into the raspy. Then you can test the output by running the script "run.sh".  
