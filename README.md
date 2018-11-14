@@ -1,13 +1,20 @@
 # RaspySayIp4Addr
-Welcome to the project RaspySayIp4Addr.
+Welcome to the project RaspySayIp4Addr.  
 This project is mainly thougth to be used on raspberry pis as for me this is the main use case. But if you would use such a solution on an other linux system fill free to use it there.
-I will be glad if I get some inputs from you. So whenever you would have an idea to change this solution write me a note.
+I will be glad if I get some inputs from you. So whenever you would have an idea to 
+change this solution write me a note.
 # Idea of the solution
-The idea of this project was to add an audio output of the actual IP-V4 address on booting a raspberry pi computer.
-Often when I use my RASPBERRY PIs for development I do not add a monitor to the raspberry pi and I just want to work with an external ssh client.
+The idea for this project was to add an audio output of the actual IP-V4 address on booting 
+a raspberry pi computer. 
+Often when I use my RASPBERRY PIs for development I do not add a monitor to the raspberry pi and 
+I just want to work with an external ssh client.
 But then I do not know the IP of this device. Of course there are also other possibilities to find this information (e.g. install fing on my laptop )  
 
-But with this solution I will only add a small software that will tell me on the audio port what the current IP addresses are. I just need an ear plug.
+But with this solution I will only add a small software that will tell me on the audio port 
+what the current IP addresses are. I just need an ear plug.
+This audio output only will use the analog audio channel. Therefore the script first will change the audio output to analog before it says 
+the IP addresses. Afterward it will set the audio channel back to the previous settings (Analog or HDMI).  
+
 The solution uses python3.
 
 ## Installation
@@ -17,7 +24,10 @@ This will automatically copy the files to a specific folder on /home/pi/ and add
 So whenever the raspby will be booted it will tell you the actual IP-addresses after 30 seconds.
 
 ## Testing
-You can test the output by running the script "run.sh".
+Plug an ear plug into the raspy. Then you can test the output by running the script "run.sh".  
+You should here a voice that starts with "...". Then it will say all IP addresses that are currently
+set on your system. To know that there is the next IP address the output will repeat the three dots.  
+E.g. ("...127.0.0.1...192.168.1.23...192.168.1.24") if WIFI and ethernet have got an address from the DHCP server.
 
 Have fun!
 
