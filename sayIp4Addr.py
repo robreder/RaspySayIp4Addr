@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+__author__ = "Reder Robert"
+__copyright__ = "Copyright (C) 2018 Reder Robert"
+__license__ = "Public Domain"
+__version__ = "1.0"
 
 from time import sleep
 from espeak import espeak  # apt install python3-espeak
