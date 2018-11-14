@@ -1,5 +1,5 @@
 #!/bin/bash
-
+RASPI_USER=pi
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 cd ~
 path2RaspySay="/home/${RASPI_USER}/.raspySayIp4Addr/"
