@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# remember original audio output channel
+# remember original audio output channel to set it back after running the script
 origAudChan=`amixer cset numid=3 | grep ": values=" | cut -d= -f2`
 analogChan=1
 echo "Original channel is $origAudChan ."
