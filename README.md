@@ -1,6 +1,6 @@
 # RaspySayIp4Addr
 Welcome to the project RaspySayIp4Addr.  
-This project is mainly thougth to be used on raspberry pis as for me this is the main use case. But if you would use such a solution on an other linux system fill free to use it there.
+This project is mainly thougth to be used on raspberry pis as for me this is the main use case. But if you would use such a solution on an other linux system feel free to use it there.
 I will be glad if I get some inputs from you. So whenever you would have an idea to 
 change this solution write me a note.
 # Idea of the solution
