@@ -1,10 +1,6 @@
 # RaspySayIp4Addr
 Welcome to the project RaspySayIp4Addr.  
 
-**Current issue: https://github.com/raspberrypi/linux/issues/3077 with latest updates to Kernel 4.19.**
-
-**Therefore the solution was changed to use the commandline to generate a wav-file which then will be played with omxplayer.**
-
 This project is mainly thougth to be used on RASPBERRY PIs as for me this is the main use case. But if you would use such a solution on an other linux system feel free to use it there.
 I will be glad if I get some inputs from you. So whenever you would have an idea to 
 change this solution write me a note.
@@ -42,3 +38,6 @@ Have fun!
 
 ## Important to know
 Today (2018.11.07) I learned that older versions of raspbian do not work with python3-espeak and python3-netifaces. Until now I do not have the plan to port this solution down to older versions of raspbian. But actually I think it could also run with modifications on the scripts on python2 with python-espeak and python-netifaces.
+Current issue: https://github.com/raspberrypi/linux/issues/3077 with latest updates to Kernel 4.19.
+
+Therefore the solution was changed to use the commandline to generate a wav-file which then will be played with omxplayer.
