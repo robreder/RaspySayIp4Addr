@@ -45,7 +45,7 @@ try:
             for link in netifaces.ifaddresses(interface)[netifaces.AF_INET]:
                if link['addr'] != None:
                    print (link['addr']) 
-                   sayWord("...")
+                   sayWord("next")
                    sayWord(link['addr'])
            
     
