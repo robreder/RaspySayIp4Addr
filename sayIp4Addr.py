@@ -6,6 +6,7 @@ __version__ = "1.0"
 
 from time import sleep
 from espeak import espeak  # apt install python3-espeak
+import os
 
 def sayChar(word):
     ''' say a number word or dot '''
@@ -23,8 +24,18 @@ def sayChar(word):
 
 def sayWord(word):
     if isinstance(word, str):
-        for c in word:
-            sayChar(c)
+        if word == 'next':
+            myCmd = 'echo "next IP 4 address" | espeak --stdin -wtest.wav && omxplayer test.wav > /dev/null && rm test.wav && sleep 1'
+            #print(myCmd)
+            os.system(myCmd)
+        else:
+            for c in word.split('.'):
+                print(c)
+                myCmd = 'echo "' + c +  '" | espeak --stdin -wtest.wav && omxplayer test.wav > /dev/null && rm test.wav'
+                #print(myCmd)
+                os.system(myCmd)
+        #for c in word:
+        #    sayChar(c)
 
 try:
     
