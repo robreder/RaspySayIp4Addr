@@ -6,6 +6,7 @@ RASPI_USER=pi
 # install relevant python3 libraries
 sudo apt-get update
 sudo apt-get install -y python3-espeak
+sudo apt-get install espeak
 sudo apt-get install -y python3-netifaces
 
 # remember current working directory
