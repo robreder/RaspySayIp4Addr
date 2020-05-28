@@ -41,3 +41,4 @@ Today (2018.11.07) I learned that older versions of raspbian do not work with py
 Current issue: https://github.com/raspberrypi/linux/issues/3077 with latest updates to Kernel 4.19.
 
 Therefore the solution was changed to use the commandline to generate a wav-file which then will be played with omxplayer.
+(2020.05.27) Until now no further updates
