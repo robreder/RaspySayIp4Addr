@@ -42,3 +42,6 @@ Current issue: https://github.com/raspberrypi/linux/issues/3077 with latest upda
 
 Therefore the solution was changed to use the commandline to generate a wav-file which then will be played with omxplayer.
 (2020.05.27) Until now no further updates
+
+It was necessary to add an option "-o local" to the use of omxplayer as it was not playing sound without this option. (2021.09.26)
+
