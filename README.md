@@ -45,3 +45,7 @@ Therefore the solution was changed to use the commandline to generate a wav-file
 
 It was necessary to add an option "-o local" to the use of omxplayer as it was not playing sound without this option. (2021.09.26)
 
+Today (2025.03.10) I saw that today omxplayer is not used anymore therefore I switched to the cvlc player. In addition I learned that the audio device settings for analog (not hdmi) are done now with a different tool. So I also changed that today.
+
+I hope it can be useful by somebody else.
+
