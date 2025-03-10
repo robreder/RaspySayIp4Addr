@@ -25,13 +25,15 @@ def sayChar(word):
 def sayWord(word):
     if isinstance(word, str):
         if word == 'next':
-            myCmd = 'echo "next IP 4 address" | espeak --stdin -wtest.wav && omxplayer -o local test.wav > /dev/null && rm test.wav && sleep 1'
+            myCmd = 'echo "next IP 4 address" | espeak --stdin -wtest.wav && cvlc --play-and-exit test.wav > /dev/null && rm test.wav && sleep 1'
+            #myCmd = 'echo "next IP 4 address" | espeak --stdin -wtest.wav && omxplayer -o local test.wav > /dev/null && rm test.wav && sleep 1'
             #print(myCmd)
             os.system(myCmd)
         else:
             for c in word.split('.'):
                 print(c)
-                myCmd = 'echo "' + c +  '" | espeak --stdin -wtest.wav && omxplayer -o local test.wav > /dev/null && rm test.wav'
+                myCmd = 'echo "' + c +  '" | espeak --stdin -wtest.wav && cvlc --play-and-exit test.wav > /dev/null && rm test.wav && sleep 0.5'
+                #myCmd = 'echo "' + c +  '" | espeak --stdin -wtest.wav && omxplayer -o local test.wav > /dev/null && rm test.wav'
                 #print(myCmd)
                 os.system(myCmd)
         #for c in word:
